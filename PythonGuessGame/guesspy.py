@@ -3,10 +3,6 @@ import random
 
 rndnum = 0
 def getrndnum ():
-
-
-
-
     global rndnum
     rndnum = random.randint(1,20)
     getanswr()
