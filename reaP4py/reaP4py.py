@@ -2,7 +2,7 @@ from P4 import P4,P4Exception
 from reaper_python import *
 
 proj = RPR_EnumProjects(-1, "", 512) #gets the active project file name
-
+#test commit
 # Now search for the render path in the active project file
 def getrenderPath(path):
     global renderPath
